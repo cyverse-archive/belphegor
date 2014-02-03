@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.apps.views.cells;
 
-import org.iplantc.core.resources.client.messages.I18N;
+import org.iplantc.de.resources.client.messages.I18N;
 import org.iplantc.core.uiapps.client.models.autobeans.App;
 import org.iplantc.core.uiapps.client.views.AppsView;
 import org.iplantc.core.uiapps.client.views.cells.AppHyperlinkCell;

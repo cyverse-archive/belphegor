@@ -9,9 +9,9 @@
              xmlns:button="urn:import:com.sencha.gxt.widget.core.client.button">
 	         
   <ui:with field="res"
-           type="org.iplantc.core.resources.client.IplantResources" />
+           type="org.iplantc.de.resources.client.IplantResources" />
   <ui:with field="strings"
-           type="org.iplantc.core.resources.client.messages.IplantDisplayStrings" />
+           type="org.iplantc.de.resources.client.messages.IplantDisplayStrings" />
   <ui:with field="northData"
            type="com.sencha.gxt.widget.core.client.container.BorderLayoutContainer.BorderLayoutData" >
     <ui:attributes size="30"

@@ -7,8 +7,8 @@ import java.util.List;
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.view.cells.SystemMessageNameCell;
-import org.iplantc.core.resources.client.IplantResources;
-import org.iplantc.core.resources.client.messages.IplantDisplayStrings;
+import org.iplantc.de.resources.client.IplantResources;
+import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.core.uicommons.client.models.sysmsgs.MessageProperties;
 import org.iplantc.core.uicommons.client.views.gxt3.dialogs.IPlantDialog;
 

@@ -9,8 +9,8 @@ import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeProperties;
 import org.iplantc.admin.belphegor.client.refGenome.view.cells.ReferenceGenomeNameCell;
-import org.iplantc.core.resources.client.IplantResources;
-import org.iplantc.core.resources.client.messages.IplantDisplayStrings;
+import org.iplantc.de.resources.client.IplantResources;
+import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.core.uicommons.client.views.gxt3.dialogs.IPlantDialog;
 
 import com.google.common.base.Strings;

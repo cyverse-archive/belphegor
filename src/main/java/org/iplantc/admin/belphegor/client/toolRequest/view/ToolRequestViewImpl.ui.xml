@@ -10,7 +10,7 @@
              xmlns:toolRequest="urn:import:org.iplantc.admin.belphegor.client.toolRequest.view">
 		
   <ui:with field="res"
-           type="org.iplantc.core.resources.client.IplantResources" />
+           type="org.iplantc.de.resources.client.IplantResources" />
 
   <ui:with field="northData"
            type="com.sencha.gxt.widget.core.client.container.BorderLayoutContainer.BorderLayoutData" >

@@ -4,9 +4,9 @@ import static com.google.gwt.dom.client.BrowserEvents.CLICK;
 
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
-import org.iplantc.core.resources.client.AppFavoriteCellStyle;
-import org.iplantc.core.resources.client.DiskResourceNameCellStyle;
-import org.iplantc.core.resources.client.IplantResources;
+import org.iplantc.de.resources.client.AppFavoriteCellStyle;
+import org.iplantc.de.resources.client.DiskResourceNameCellStyle;
+import org.iplantc.de.resources.client.IplantResources;
 
 import com.google.gwt.cell.client.AbstractCell;
 import com.google.gwt.cell.client.Cell;

@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.iplantc.admin.belphegor.client.toolRequest.ToolRequestView;
 import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestServiceFacade;
-import org.iplantc.core.resources.client.messages.IplantDisplayStrings;
+import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.core.uiapps.client.models.toolrequest.ToolRequest;
 import org.iplantc.core.uiapps.client.models.toolrequest.ToolRequestDetails;
 import org.iplantc.core.uiapps.client.models.toolrequest.ToolRequestUpdate;

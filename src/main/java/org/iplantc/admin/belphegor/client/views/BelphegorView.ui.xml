@@ -5,7 +5,7 @@
              xmlns:con='urn:import:com.sencha.gxt.widget.core.client.container'>
 	
 	<ui:with type="org.iplantc.admin.belphegor.client.BelphegorResources" field="res" />
-	<ui:with type="org.iplantc.core.resources.client.messages.IplantDisplayStrings" field="strings" />
+	<ui:with type="org.iplantc.de.resources.client.messages.IplantDisplayStrings" field="strings" />
 
 	<ui:with type="com.sencha.gxt.core.client.util.Margins" field="centerMargins">
     	<ui:attributes top="0" right="0" bottom="0" left="0" />
