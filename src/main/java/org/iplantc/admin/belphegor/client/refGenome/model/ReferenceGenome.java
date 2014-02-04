@@ -3,7 +3,7 @@ package org.iplantc.admin.belphegor.client.refGenome.model;
 import java.util.Date;
 
 import org.iplantc.core.uicommons.client.models.HasId;
-import org.iplantc.core.uidiskresource.client.services.errors.HasPath;
+import org.iplantc.de.diskResource.client.services.errors.HasPath;
 
 import com.google.gwt.user.client.ui.HasName;
 import com.google.web.bindery.autobean.shared.AutoBean.PropertyName;
