@@ -8,7 +8,7 @@ import com.google.gwt.user.client.ui.IsWidget;
 
 public interface AppCategorizeView extends IsWidget {
 
-    public interface Presenter extends org.iplantc.core.uicommons.client.presenter.Presenter {
+    public interface Presenter extends org.iplantc.de.commons.client.presenter.Presenter {
         void setAppGroups(List<AppGroup> children);
     }
 

@@ -11,10 +11,10 @@ import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
 import org.iplantc.admin.belphegor.client.toolRequest.ToolRequestView;
 import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
-import org.iplantc.core.uicommons.client.models.CommonModelUtils;
-import org.iplantc.core.uicommons.client.models.HasId;
-import org.iplantc.core.uicommons.client.models.UserInfo;
-import org.iplantc.core.uicommons.client.widgets.IPlantAnchor;
+import org.iplantc.de.commons.client.models.CommonModelUtils;
+import org.iplantc.de.commons.client.models.HasId;
+import org.iplantc.de.commons.client.models.UserInfo;
+import org.iplantc.de.commons.client.widgets.IPlantAnchor;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;

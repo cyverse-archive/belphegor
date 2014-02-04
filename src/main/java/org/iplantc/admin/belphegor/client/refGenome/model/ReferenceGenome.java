@@ -2,7 +2,7 @@ package org.iplantc.admin.belphegor.client.refGenome.model;
 
 import java.util.Date;
 
-import org.iplantc.core.uicommons.client.models.HasId;
+import org.iplantc.de.commons.client.models.HasId;
 import org.iplantc.de.diskResource.client.services.errors.HasPath;
 
 import com.google.gwt.user.client.ui.HasName;

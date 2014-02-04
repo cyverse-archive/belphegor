@@ -4,7 +4,7 @@ import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestAutoBeanFactory;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestStatus;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
-import org.iplantc.core.uicommons.client.views.gxt3.dialogs.IPlantDialog;
+import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;

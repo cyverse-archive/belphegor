@@ -7,7 +7,6 @@ import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeAutoBeanFactory;
 import org.iplantc.admin.belphegor.client.refGenome.service.ReferenceGenomeServiceFacade;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
-import org.iplantc.core.uicommons.client.services.StringToVoidCallbackConverter;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;

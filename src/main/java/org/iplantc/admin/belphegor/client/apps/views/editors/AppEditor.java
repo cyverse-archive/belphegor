@@ -24,7 +24,7 @@ import com.sencha.gxt.widget.core.client.form.TextField;
 
 public class AppEditor implements Editor<App>, IsWidget {
 
-    public interface Presenter extends org.iplantc.core.uicommons.client.presenter.Presenter {
+    public interface Presenter extends org.iplantc.de.commons.client.presenter.Presenter {
         void onAppEditorSave(App app);
     }
 

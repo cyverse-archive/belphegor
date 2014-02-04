@@ -2,7 +2,7 @@ package org.iplantc.admin.belphegor.client.systemMessage.model;
 
 import java.util.Date;
 
-import org.iplantc.core.uicommons.client.models.sysmsgs.Message;
+import org.iplantc.de.commons.client.models.sysmsgs.Message;
 
 import com.google.web.bindery.autobean.shared.AutoBean.PropertyName;
 

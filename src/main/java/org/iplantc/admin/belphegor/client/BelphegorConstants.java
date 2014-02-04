@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client;
 
-import org.iplantc.core.uicommons.client.CommonUiConstants;
+import org.iplantc.de.commons.client.CommonUiConstants;
 
 public interface BelphegorConstants extends CommonUiConstants {
 

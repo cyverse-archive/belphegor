@@ -6,9 +6,9 @@ import org.iplantc.admin.belphegor.client.gin.BelphegorAppInjector;
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.views.BelphegorView;
-import org.iplantc.core.uicommons.client.ErrorHandler;
-import org.iplantc.core.uicommons.client.models.UserInfo;
-import org.iplantc.core.uicommons.client.requests.KeepaliveTimer;
+import org.iplantc.de.commons.client.ErrorHandler;
+import org.iplantc.de.commons.client.models.UserInfo;
+import org.iplantc.de.commons.client.requests.KeepaliveTimer;
 import org.iplantc.de.shared.services.PropertyServiceFacade;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 

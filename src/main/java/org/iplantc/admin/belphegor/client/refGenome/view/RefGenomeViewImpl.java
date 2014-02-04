@@ -11,7 +11,7 @@ import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomePropert
 import org.iplantc.admin.belphegor.client.refGenome.view.cells.ReferenceGenomeNameCell;
 import org.iplantc.de.resources.client.IplantResources;
 import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
-import org.iplantc.core.uicommons.client.views.gxt3.dialogs.IPlantDialog;
+import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;

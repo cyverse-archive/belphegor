@@ -5,7 +5,7 @@ import java.util.Date;
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeAutoBeanFactory;
-import org.iplantc.core.uicommons.client.models.UserInfo;
+import org.iplantc.de.commons.client.models.UserInfo;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.editor.client.Editor;

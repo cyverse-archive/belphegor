@@ -5,7 +5,7 @@ import java.util.List;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeAutoBeanFactory;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeList;
-import org.iplantc.core.uicommons.client.services.AsyncCallbackConverter;
+import org.iplantc.de.commons.client.services.AsyncCallbackConverter;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.web.bindery.autobean.shared.AutoBean;

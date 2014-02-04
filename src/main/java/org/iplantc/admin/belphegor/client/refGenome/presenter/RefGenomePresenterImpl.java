@@ -7,9 +7,9 @@ import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.service.ReferenceGenomeServiceFacade;
 import org.iplantc.de.resources.client.messages.I18N;
 import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
-import org.iplantc.core.uicommons.client.ErrorHandler;
-import org.iplantc.core.uicommons.client.info.IplantAnnouncer;
-import org.iplantc.core.uicommons.client.info.SuccessAnnouncementConfig;
+import org.iplantc.de.commons.client.ErrorHandler;
+import org.iplantc.de.commons.client.info.IplantAnnouncer;
+import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasOneWidget;

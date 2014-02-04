@@ -3,7 +3,7 @@ package org.iplantc.admin.belphegor.client.models;
 import java.util.Arrays;
 import java.util.Map;
 
-import org.iplantc.core.uicommons.client.ErrorHandler;
+import org.iplantc.de.commons.client.ErrorHandler;
 
 import com.sencha.gxt.core.shared.FastMap;
 

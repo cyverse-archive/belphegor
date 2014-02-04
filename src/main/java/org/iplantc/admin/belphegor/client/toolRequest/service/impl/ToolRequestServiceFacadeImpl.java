@@ -9,8 +9,8 @@ import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestService
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
-import org.iplantc.core.uicommons.client.models.HasId;
-import org.iplantc.core.uicommons.client.models.UserInfo;
+import org.iplantc.de.commons.client.models.HasId;
+import org.iplantc.de.commons.client.models.UserInfo;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;

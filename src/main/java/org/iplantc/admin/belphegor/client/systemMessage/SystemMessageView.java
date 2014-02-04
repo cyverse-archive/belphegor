@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.service.SystemMessageServiceFacade;
-import org.iplantc.core.uicommons.client.views.IsMaskable;
+import org.iplantc.de.commons.client.views.IsMaskable;
 
 import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.gwt.user.client.ui.IsWidget;

@@ -6,7 +6,7 @@ import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestService
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
-import org.iplantc.core.uicommons.client.views.IsMaskable;
+import org.iplantc.de.commons.client.views.IsMaskable;
 
 import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.gwt.user.client.ui.IsWidget;

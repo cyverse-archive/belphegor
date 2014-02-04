@@ -8,10 +8,10 @@ import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
-import org.iplantc.core.uicommons.client.ErrorHandler;
-import org.iplantc.core.uicommons.client.info.IplantAnnouncer;
-import org.iplantc.core.uicommons.client.info.SuccessAnnouncementConfig;
-import org.iplantc.core.uicommons.client.models.UserInfo;
+import org.iplantc.de.commons.client.ErrorHandler;
+import org.iplantc.de.commons.client.info.IplantAnnouncer;
+import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;
+import org.iplantc.de.commons.client.models.UserInfo;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasOneWidget;
