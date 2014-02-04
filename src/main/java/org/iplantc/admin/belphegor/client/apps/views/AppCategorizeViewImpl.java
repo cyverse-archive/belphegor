@@ -5,7 +5,7 @@ import java.util.List;
 
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.de.resources.client.IplantResources;
-import org.iplantc.core.uiapps.client.models.autobeans.AppGroup;
+import org.iplantc.de.apps.client.models.autobeans.AppGroup;
 
 import com.google.common.collect.Lists;
 import com.google.gwt.core.client.GWT;

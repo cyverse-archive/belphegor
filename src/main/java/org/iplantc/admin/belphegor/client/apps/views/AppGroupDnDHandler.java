@@ -1,8 +1,8 @@
 package org.iplantc.admin.belphegor.client.apps.views;
 
 import org.iplantc.admin.belphegor.client.apps.presenter.AdminAppsViewPresenter;
-import org.iplantc.core.uiapps.client.models.autobeans.App;
-import org.iplantc.core.uiapps.client.models.autobeans.AppGroup;
+import org.iplantc.de.apps.client.models.autobeans.App;
+import org.iplantc.de.apps.client.models.autobeans.AppGroup;
 
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.dom.client.EventTarget;

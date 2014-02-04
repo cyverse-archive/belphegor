@@ -2,9 +2,9 @@ package org.iplantc.admin.belphegor.client.toolRequest.service;
 
 import java.util.List;
 
-import org.iplantc.core.uiapps.client.models.toolrequest.ToolRequest;
-import org.iplantc.core.uiapps.client.models.toolrequest.ToolRequestDetails;
-import org.iplantc.core.uiapps.client.models.toolrequest.ToolRequestUpdate;
+import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
+import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
+import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
 import org.iplantc.core.uicommons.client.models.HasId;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;

@@ -1,7 +1,7 @@
 package org.iplantc.admin.belphegor.client.models;
 
 import org.iplantc.de.resources.client.messages.I18N;
-import org.iplantc.core.uiapps.client.Constants;
+import org.iplantc.de.apps.client.Constants;
 import org.iplantc.core.uicommons.client.util.RegExp;
 import org.iplantc.core.uicommons.client.validators.BasicEmailValidator3;
 

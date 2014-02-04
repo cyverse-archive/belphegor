@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.apps.views.widgets;
 
-import org.iplantc.core.uiapps.client.views.widgets.proxy.AppSearchRpcProxy;
+import org.iplantc.de.apps.client.views.widgets.proxy.AppSearchRpcProxy;
 
 import com.google.gwt.user.client.ui.IsWidget;
 

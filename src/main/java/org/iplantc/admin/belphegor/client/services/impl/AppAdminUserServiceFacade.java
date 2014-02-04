@@ -2,8 +2,8 @@ package org.iplantc.admin.belphegor.client.services.impl;
 
 import java.util.List;
 
-import org.iplantc.core.uiapps.client.models.autobeans.AppGroup;
-import org.iplantc.core.uiapps.client.services.AppUserServiceFacade;
+import org.iplantc.de.apps.client.models.autobeans.AppGroup;
+import org.iplantc.de.apps.client.services.AppUserServiceFacade;
 
 import com.google.gwt.json.client.JSONObject;
 import com.google.gwt.user.client.rpc.AsyncCallback;

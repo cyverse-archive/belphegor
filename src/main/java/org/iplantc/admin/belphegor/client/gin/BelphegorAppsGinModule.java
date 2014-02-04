@@ -22,10 +22,10 @@ import org.iplantc.admin.belphegor.client.toolRequest.service.impl.ToolRequestSe
 import org.iplantc.admin.belphegor.client.toolRequest.view.ToolRequestViewImpl;
 import org.iplantc.admin.belphegor.client.views.BelphegorView;
 import org.iplantc.admin.belphegor.client.views.BelphegorViewImpl;
-import org.iplantc.core.uiapps.client.gin.AppGroupTreeProvider;
-import org.iplantc.core.uiapps.client.gin.AppGroupTreeStoreProvider;
-import org.iplantc.core.uiapps.client.models.autobeans.AppGroup;
-import org.iplantc.core.uiapps.client.views.AppsView;
+import org.iplantc.de.apps.client.gin.AppGroupTreeProvider;
+import org.iplantc.de.apps.client.gin.AppGroupTreeStoreProvider;
+import org.iplantc.de.apps.client.models.autobeans.AppGroup;
+import org.iplantc.de.apps.client.views.AppsView;
 
 import com.google.gwt.inject.client.AbstractGinModule;
 import com.google.inject.Singleton;

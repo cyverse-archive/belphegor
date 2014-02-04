@@ -1,8 +1,8 @@
 package org.iplantc.admin.belphegor.client.apps.presenter;
 
-import org.iplantc.core.uiapps.client.models.autobeans.App;
-import org.iplantc.core.uiapps.client.models.autobeans.AppGroup;
-import org.iplantc.core.uiapps.client.views.AppsView.Presenter;
+import org.iplantc.de.apps.client.models.autobeans.App;
+import org.iplantc.de.apps.client.models.autobeans.AppGroup;
+import org.iplantc.de.apps.client.views.AppsView.Presenter;
 
 public interface AdminAppsViewPresenter extends Presenter {
 

@@ -2,7 +2,7 @@ package org.iplantc.admin.belphegor.client.apps.views;
 
 import java.util.List;
 
-import org.iplantc.core.uiapps.client.models.autobeans.AppGroup;
+import org.iplantc.de.apps.client.models.autobeans.AppGroup;
 
 import com.google.gwt.user.client.ui.IsWidget;
 

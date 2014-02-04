@@ -4,7 +4,7 @@ import java.util.List;
 
 import org.iplantc.admin.belphegor.client.toolRequest.model.ToolRequestAdminAutoBeanFactory;
 import org.iplantc.admin.belphegor.client.toolRequest.model.ToolRequestList;
-import org.iplantc.core.uiapps.client.models.toolrequest.ToolRequest;
+import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.core.uicommons.client.services.AsyncCallbackConverter;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;

@@ -7,9 +7,9 @@ import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.services.callbacks.AdminServiceCallback;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest;
-import org.iplantc.core.uiapps.client.models.autobeans.AppGroup;
-import org.iplantc.core.uiapps.client.services.AppGroupListCallbackConverter;
-import org.iplantc.core.uiapps.client.services.AppServiceFacade;
+import org.iplantc.de.apps.client.models.autobeans.AppGroup;
+import org.iplantc.de.apps.client.services.AppGroupListCallbackConverter;
+import org.iplantc.de.apps.client.services.AppServiceFacade;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
 import com.google.gwt.http.client.URL;

@@ -6,10 +6,10 @@ import java.util.List;
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.apps.views.cells.AppNameCell;
 import org.iplantc.admin.belphegor.client.apps.views.cells.AvgAnalysisUserRatingCell;
-import org.iplantc.core.uiapps.client.models.autobeans.App;
-import org.iplantc.core.uiapps.client.models.autobeans.AppFeedback;
-import org.iplantc.core.uiapps.client.models.autobeans.AppProperties;
-import org.iplantc.core.uiapps.client.views.AppsView;
+import org.iplantc.de.apps.client.models.autobeans.App;
+import org.iplantc.de.apps.client.models.autobeans.AppFeedback;
+import org.iplantc.de.apps.client.models.autobeans.AppProperties;
+import org.iplantc.de.apps.client.views.AppsView;
 import org.iplantc.core.uicommons.client.events.EventBus;
 
 import com.google.gwt.core.client.GWT;
