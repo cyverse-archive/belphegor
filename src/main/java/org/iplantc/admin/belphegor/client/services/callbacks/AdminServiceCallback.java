@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.services.callbacks;
 
-import org.iplantc.de.jsonutil.client.JsonUtil;
+import org.iplantc.de.commons.client.util.JsonUtil;
 import org.iplantc.de.commons.client.ErrorHandler;
 
 import com.google.gwt.json.client.JSONObject;

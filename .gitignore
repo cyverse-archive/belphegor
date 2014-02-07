@@ -42,3 +42,4 @@ clavin-*-standalone.jar
 # IntelliJ Idea files
 .idea
 *.iml
+build/

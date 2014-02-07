@@ -17,7 +17,7 @@ import org.iplantc.admin.belphegor.client.services.model.AppAdminServiceRequestA
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest.CategoryPath;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest.CategoryRequest;
-import org.iplantc.de.jsonutil.client.JsonUtil;
+import org.iplantc.de.commons.client.util.JsonUtil;
 import org.iplantc.de.apps.client.models.autobeans.App;
 import org.iplantc.de.apps.client.models.autobeans.AppAutoBeanFactory;
 import org.iplantc.de.apps.client.models.autobeans.AppGroup;
