@@ -1,14 +1,15 @@
 package org.iplantc.admin.belphegor.client.toolRequest.service;
 
-import java.util.List;
-
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
-import org.iplantc.de.commons.client.models.HasId;
+import org.iplantc.de.client.models.HasId;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
+
 import com.sencha.gxt.data.shared.SortInfo;
+
+import java.util.List;
 
 public interface ToolRequestServiceFacade {
 

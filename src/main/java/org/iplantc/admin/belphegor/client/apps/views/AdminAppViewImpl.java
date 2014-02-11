@@ -7,6 +7,7 @@ import org.iplantc.de.apps.client.views.AppsViewImpl;
 
 import com.google.gwt.uibinder.client.UiFactory;
 import com.google.inject.Inject;
+
 import com.sencha.gxt.core.client.Style.SelectionMode;
 import com.sencha.gxt.dnd.core.client.DND.Operation;
 import com.sencha.gxt.dnd.core.client.DragSource;

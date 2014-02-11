@@ -1,8 +1,5 @@
 package org.iplantc.admin.belphegor.client.systemMessage.view;
 
-import java.util.Date;
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessageFactory;
 
@@ -21,6 +18,7 @@ import com.google.gwt.user.client.TakesValue;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.web.bindery.autobean.shared.Splittable;
 import com.google.web.bindery.autobean.shared.impl.StringQuoter;
+
 import com.sencha.gxt.core.client.util.DateWrapper;
 import com.sencha.gxt.data.shared.StringLabelProvider;
 import com.sencha.gxt.widget.core.client.Composite;
@@ -30,6 +28,9 @@ import com.sencha.gxt.widget.core.client.form.DateField;
 import com.sencha.gxt.widget.core.client.form.SimpleComboBox;
 import com.sencha.gxt.widget.core.client.form.TextArea;
 import com.sencha.gxt.widget.core.client.form.TimeField;
+
+import java.util.Date;
+import java.util.List;
 
 class EditCreateSystemMessageDialog extends Composite implements ValueAwareEditor<SystemMessage>, TakesValue<SystemMessage> {
 

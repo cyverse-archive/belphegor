@@ -1,13 +1,11 @@
 package org.iplantc.admin.belphegor.client;
 
-import java.util.Map;
-
 import org.iplantc.admin.belphegor.client.gin.BelphegorAppInjector;
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.views.BelphegorView;
+import org.iplantc.de.client.models.UserInfo;
 import org.iplantc.de.commons.client.ErrorHandler;
-import org.iplantc.de.commons.client.models.UserInfo;
 import org.iplantc.de.commons.client.requests.KeepaliveTimer;
 import org.iplantc.de.shared.services.PropertyServiceFacade;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
@@ -16,6 +14,8 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.RootPanel;
+
+import java.util.Map;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.

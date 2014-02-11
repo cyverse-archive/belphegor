@@ -1,11 +1,9 @@
 package org.iplantc.admin.belphegor.client.refGenome.view;
 
-import java.util.Date;
-
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeAutoBeanFactory;
-import org.iplantc.de.commons.client.models.UserInfo;
+import org.iplantc.de.client.models.UserInfo;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.editor.client.Editor;
@@ -15,12 +13,15 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.TakesValue;
 import com.google.gwt.user.client.ui.Widget;
+
 import com.sencha.gxt.core.client.XTemplates;
 import com.sencha.gxt.widget.core.client.Composite;
 import com.sencha.gxt.widget.core.client.form.CheckBox;
 import com.sencha.gxt.widget.core.client.form.DateField;
 import com.sencha.gxt.widget.core.client.form.FieldLabel;
 import com.sencha.gxt.widget.core.client.form.TextField;
+
+import java.util.Date;
 
 class EditReferenceGenomeDialog extends Composite implements Editor<ReferenceGenome>, TakesValue<ReferenceGenome> {
 

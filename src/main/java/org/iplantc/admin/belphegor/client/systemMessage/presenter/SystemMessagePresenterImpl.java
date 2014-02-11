@@ -1,20 +1,20 @@
 package org.iplantc.admin.belphegor.client.systemMessage.presenter;
 
-import java.util.Collections;
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.service.SystemMessageServiceFacade;
-import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.de.commons.client.ErrorHandler;
 import org.iplantc.de.commons.client.info.IplantAnnouncer;
 import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;
+import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 
 import com.google.common.collect.Lists;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.inject.Inject;
+
+import java.util.Collections;
+import java.util.List;
 
 public class SystemMessagePresenterImpl implements SystemMessageView.Presenter {
 

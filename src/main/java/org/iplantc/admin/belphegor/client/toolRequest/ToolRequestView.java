@@ -1,7 +1,5 @@
 package org.iplantc.admin.belphegor.client.toolRequest;
 
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestServiceFacade;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
@@ -10,6 +8,8 @@ import org.iplantc.de.commons.client.views.IsMaskable;
 
 import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.gwt.user.client.ui.IsWidget;
+
+import java.util.List;
 
 public interface ToolRequestView extends IsWidget, IsMaskable {
 

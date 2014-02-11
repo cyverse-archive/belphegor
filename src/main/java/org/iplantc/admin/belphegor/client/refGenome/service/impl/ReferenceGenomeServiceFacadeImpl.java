@@ -1,7 +1,5 @@
 package org.iplantc.admin.belphegor.client.refGenome.service.impl;
 
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeAutoBeanFactory;
@@ -13,6 +11,8 @@ import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.inject.Inject;
 import com.google.web.bindery.autobean.shared.Splittable;
 import com.google.web.bindery.autobean.shared.impl.StringQuoter;
+
+import java.util.List;
 
 public class ReferenceGenomeServiceFacadeImpl implements ReferenceGenomeServiceFacade {
 

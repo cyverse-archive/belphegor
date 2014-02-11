@@ -6,6 +6,7 @@ import org.iplantc.de.apps.client.models.autobeans.AppGroup;
 
 import com.google.gwt.dom.client.Element;
 import com.google.gwt.dom.client.EventTarget;
+
 import com.sencha.gxt.dnd.core.client.DndDragEnterEvent;
 import com.sencha.gxt.dnd.core.client.DndDragEnterEvent.DndDragEnterHandler;
 import com.sencha.gxt.dnd.core.client.DndDragMoveEvent;

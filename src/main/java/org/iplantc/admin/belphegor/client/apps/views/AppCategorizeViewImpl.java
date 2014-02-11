@@ -1,11 +1,8 @@
 package org.iplantc.admin.belphegor.client.apps.views;
 
-import java.util.Comparator;
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.I18N;
-import org.iplantc.de.resources.client.IplantResources;
 import org.iplantc.de.apps.client.models.autobeans.AppGroup;
+import org.iplantc.de.resources.client.IplantResources;
 
 import com.google.common.collect.Lists;
 import com.google.gwt.core.client.GWT;
@@ -13,6 +10,7 @@ import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiTemplate;
 import com.google.gwt.user.client.ui.Widget;
+
 import com.sencha.gxt.core.client.ValueProvider;
 import com.sencha.gxt.data.shared.ModelKeyProvider;
 import com.sencha.gxt.data.shared.SortDir;
@@ -26,6 +24,9 @@ import com.sencha.gxt.widget.core.client.tree.Tree;
 import com.sencha.gxt.widget.core.client.tree.Tree.CheckNodes;
 import com.sencha.gxt.widget.core.client.tree.Tree.TreeAppearance;
 import com.sencha.gxt.widget.core.client.tree.TreeStyle;
+
+import java.util.Comparator;
+import java.util.List;
 
 public class AppCategorizeViewImpl implements AppCategorizeView {
 

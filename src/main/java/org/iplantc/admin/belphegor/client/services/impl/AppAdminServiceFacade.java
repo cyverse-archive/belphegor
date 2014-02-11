@@ -1,7 +1,5 @@
 package org.iplantc.admin.belphegor.client.services.impl;
 
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
@@ -18,7 +16,10 @@ import com.google.gwt.json.client.JSONString;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
 import com.google.web.bindery.autobean.shared.AutoBeanUtils;
+
 import com.sencha.gxt.widget.core.client.Component;
+
+import java.util.List;
 
 public class AppAdminServiceFacade implements AppServiceFacade {
     private final Component maskingCaller;

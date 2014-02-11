@@ -1,21 +1,21 @@
 package org.iplantc.admin.belphegor.client.toolRequest.presenter;
 
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.toolRequest.ToolRequestView;
 import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestServiceFacade;
-import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
+import org.iplantc.de.client.models.UserInfo;
 import org.iplantc.de.commons.client.ErrorHandler;
 import org.iplantc.de.commons.client.info.IplantAnnouncer;
 import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;
-import org.iplantc.de.commons.client.models.UserInfo;
+import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.inject.Inject;
+
+import java.util.List;
 
 public class ToolRequestPresenterImpl implements ToolRequestView.Presenter {
 

@@ -1,11 +1,11 @@
 package org.iplantc.admin.belphegor.client.models;
 
-import java.util.Arrays;
-import java.util.Map;
-
 import org.iplantc.de.commons.client.ErrorHandler;
 
 import com.sencha.gxt.core.shared.FastMap;
+
+import java.util.Arrays;
+import java.util.Map;
 
 public class ToolIntegrationAdminProperties {
 

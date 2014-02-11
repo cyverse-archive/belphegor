@@ -1,12 +1,12 @@
 package org.iplantc.admin.belphegor.client.refGenome.view.cells;
 
-import static com.google.gwt.dom.client.BrowserEvents.CLICK;
-
 import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.de.resources.client.AppFavoriteCellStyle;
 import org.iplantc.de.resources.client.DiskResourceNameCellStyle;
 import org.iplantc.de.resources.client.IplantResources;
+
+import static com.google.gwt.dom.client.BrowserEvents.CLICK;
 
 import com.google.gwt.cell.client.AbstractCell;
 import com.google.gwt.cell.client.Cell;
@@ -17,6 +17,7 @@ import com.google.gwt.dom.client.NativeEvent;
 import com.google.gwt.safehtml.shared.SafeHtml;
 import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
 import com.google.gwt.user.client.Event;
+
 import com.sencha.gxt.core.client.XTemplates;
 
 public class ReferenceGenomeNameCell extends AbstractCell<ReferenceGenome> {

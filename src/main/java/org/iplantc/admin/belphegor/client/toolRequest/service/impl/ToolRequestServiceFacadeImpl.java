@@ -1,7 +1,5 @@
 package org.iplantc.admin.belphegor.client.toolRequest.service.impl;
 
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.toolRequest.model.ToolRequestAdminAutoBeanFactory;
@@ -9,8 +7,8 @@ import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestService
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
-import org.iplantc.de.commons.client.models.HasId;
-import org.iplantc.de.commons.client.models.UserInfo;
+import org.iplantc.de.client.models.HasId;
+import org.iplantc.de.client.models.UserInfo;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
@@ -18,7 +16,10 @@ import com.google.inject.Inject;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
 import com.google.web.bindery.autobean.shared.AutoBeanUtils;
 import com.google.web.bindery.autobean.shared.Splittable;
+
 import com.sencha.gxt.data.shared.SortInfo;
+
+import java.util.List;
 
 public class ToolRequestServiceFacadeImpl implements ToolRequestServiceFacade {
 

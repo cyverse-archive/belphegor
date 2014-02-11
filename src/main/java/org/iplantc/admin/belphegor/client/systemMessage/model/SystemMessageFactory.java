@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.systemMessage.model;
 
-import org.iplantc.de.commons.client.models.sysmsgs.MessageFactory;
+import org.iplantc.de.client.models.sysMsgs.MessageFactory;
 
 import com.google.web.bindery.autobean.shared.AutoBean;
 

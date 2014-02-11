@@ -1,9 +1,9 @@
 package org.iplantc.admin.belphegor.client.models;
 
-import org.iplantc.de.resources.client.messages.I18N;
 import org.iplantc.de.apps.client.Constants;
 import org.iplantc.de.commons.client.util.RegExp;
 import org.iplantc.de.commons.client.validators.BasicEmailValidator3;
+import org.iplantc.de.resources.client.messages.I18N;
 
 import com.sencha.gxt.core.client.util.Format;
 import com.sencha.gxt.widget.core.client.form.validator.RegExValidator;

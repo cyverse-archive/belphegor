@@ -30,6 +30,7 @@ import org.iplantc.de.apps.client.views.AppsView;
 import com.google.gwt.inject.client.AbstractGinModule;
 import com.google.inject.Singleton;
 import com.google.inject.TypeLiteral;
+
 import com.sencha.gxt.data.shared.TreeStore;
 import com.sencha.gxt.widget.core.client.tree.Tree;
 

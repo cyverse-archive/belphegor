@@ -1,12 +1,12 @@
 package org.iplantc.admin.belphegor.client.refGenome.model;
 
-import java.util.Date;
-
-import org.iplantc.de.commons.client.models.HasId;
+import org.iplantc.de.client.models.HasId;
 import org.iplantc.de.diskResource.client.services.errors.HasPath;
 
 import com.google.gwt.user.client.ui.HasName;
 import com.google.web.bindery.autobean.shared.AutoBean.PropertyName;
+
+import java.util.Date;
 
 public interface ReferenceGenome extends HasId, HasName, HasPath {
 

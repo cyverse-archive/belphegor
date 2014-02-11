@@ -1,10 +1,10 @@
 package org.iplantc.admin.belphegor.client.toolRequest.model;
 
-import java.util.List;
-
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
 
 import com.google.web.bindery.autobean.shared.AutoBean.PropertyName;
+
+import java.util.List;
 
 public interface ToolRequestList {
 

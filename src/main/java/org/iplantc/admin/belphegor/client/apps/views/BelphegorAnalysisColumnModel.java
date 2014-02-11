@@ -1,8 +1,5 @@
 package org.iplantc.admin.belphegor.client.apps.views;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.apps.views.cells.AppNameCell;
 import org.iplantc.admin.belphegor.client.apps.views.cells.AvgAnalysisUserRatingCell;
@@ -14,9 +11,13 @@ import org.iplantc.de.commons.client.events.EventBus;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.HasHorizontalAlignment;
+
 import com.sencha.gxt.core.client.IdentityValueProvider;
 import com.sencha.gxt.widget.core.client.grid.ColumnConfig;
 import com.sencha.gxt.widget.core.client.grid.ColumnModel;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class BelphegorAnalysisColumnModel extends ColumnModel<App> {
 

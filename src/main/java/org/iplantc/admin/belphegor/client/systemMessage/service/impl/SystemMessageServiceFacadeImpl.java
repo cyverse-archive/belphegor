@@ -1,7 +1,5 @@
 package org.iplantc.admin.belphegor.client.systemMessage.service.impl;
 
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
@@ -15,6 +13,8 @@ import com.google.inject.Inject;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
 import com.google.web.bindery.autobean.shared.AutoBeanUtils;
 import com.google.web.bindery.autobean.shared.Splittable;
+
+import java.util.List;
 
 public class SystemMessageServiceFacadeImpl implements SystemMessageServiceFacade {
 

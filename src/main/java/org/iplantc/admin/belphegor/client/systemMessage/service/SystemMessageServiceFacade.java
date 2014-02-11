@@ -1,10 +1,10 @@
 package org.iplantc.admin.belphegor.client.systemMessage.service;
 
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
+
+import java.util.List;
 
 public interface SystemMessageServiceFacade {
 

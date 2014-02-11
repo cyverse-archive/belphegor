@@ -1,10 +1,10 @@
 package org.iplantc.admin.belphegor.client.systemMessage.model;
 
-import java.util.Date;
-
-import org.iplantc.de.commons.client.models.sysmsgs.Message;
+import org.iplantc.de.client.models.sysMsgs.Message;
 
 import com.google.web.bindery.autobean.shared.AutoBean.PropertyName;
+
+import java.util.Date;
 
 public interface SystemMessage extends Message {
 

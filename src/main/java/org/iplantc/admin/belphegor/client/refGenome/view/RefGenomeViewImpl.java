@@ -1,17 +1,13 @@
 package org.iplantc.admin.belphegor.client.refGenome.view;
 
-import java.util.Comparator;
-import java.util.Date;
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeProperties;
 import org.iplantc.admin.belphegor.client.refGenome.view.cells.ReferenceGenomeNameCell;
+import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
 import org.iplantc.de.resources.client.IplantResources;
 import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
-import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;
@@ -23,6 +19,7 @@ import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
+
 import com.sencha.gxt.core.client.IdentityValueProvider;
 import com.sencha.gxt.data.shared.ListStore;
 import com.sencha.gxt.data.shared.Store;
@@ -34,6 +31,10 @@ import com.sencha.gxt.widget.core.client.event.SelectEvent.SelectHandler;
 import com.sencha.gxt.widget.core.client.grid.ColumnConfig;
 import com.sencha.gxt.widget.core.client.grid.ColumnModel;
 import com.sencha.gxt.widget.core.client.grid.Grid;
+
+import java.util.Comparator;
+import java.util.Date;
+import java.util.List;
 
 public class RefGenomeViewImpl extends Composite implements RefGenomeView {
 

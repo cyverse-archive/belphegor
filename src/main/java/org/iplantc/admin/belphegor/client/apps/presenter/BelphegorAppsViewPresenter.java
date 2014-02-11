@@ -1,8 +1,5 @@
 package org.iplantc.admin.belphegor.client.apps.presenter;
 
-import java.util.Collections;
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.apps.views.AppCategorizeViewImpl;
 import org.iplantc.admin.belphegor.client.apps.views.editors.AppEditor;
@@ -17,7 +14,6 @@ import org.iplantc.admin.belphegor.client.services.model.AppAdminServiceRequestA
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest.CategoryPath;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest.CategoryRequest;
-import org.iplantc.de.commons.client.util.JsonUtil;
 import org.iplantc.de.apps.client.models.autobeans.App;
 import org.iplantc.de.apps.client.models.autobeans.AppAutoBeanFactory;
 import org.iplantc.de.apps.client.models.autobeans.AppGroup;
@@ -26,13 +22,14 @@ import org.iplantc.de.apps.client.presenter.proxy.AppGroupProxy;
 import org.iplantc.de.apps.client.services.AppServiceFacade;
 import org.iplantc.de.apps.client.views.AppsView;
 import org.iplantc.de.apps.client.views.widgets.proxy.AppSearchRpcProxy;
+import org.iplantc.de.client.models.CommonModelUtils;
+import org.iplantc.de.client.models.HasId;
 import org.iplantc.de.commons.client.ErrorHandler;
 import org.iplantc.de.commons.client.events.EventBus;
 import org.iplantc.de.commons.client.info.ErrorAnnouncementConfig;
 import org.iplantc.de.commons.client.info.IplantAnnouncer;
 import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;
-import org.iplantc.de.commons.client.models.CommonModelUtils;
-import org.iplantc.de.commons.client.models.HasId;
+import org.iplantc.de.commons.client.util.JsonUtil;
 import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
 import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantPromptDialog;
 import org.iplantc.de.shared.services.ConfluenceServiceFacade;
@@ -47,6 +44,7 @@ import com.google.inject.Inject;
 import com.google.web.bindery.autobean.shared.AutoBean;
 import com.google.web.bindery.autobean.shared.AutoBeanCodex;
 import com.google.web.bindery.autobean.shared.AutoBeanUtils;
+
 import com.sencha.gxt.widget.core.client.Dialog;
 import com.sencha.gxt.widget.core.client.Dialog.PredefinedButton;
 import com.sencha.gxt.widget.core.client.box.AlertMessageBox;
@@ -58,6 +56,9 @@ import com.sencha.gxt.widget.core.client.event.HideEvent.HideHandler;
 import com.sencha.gxt.widget.core.client.event.SelectEvent;
 import com.sencha.gxt.widget.core.client.event.SelectEvent.SelectHandler;
 import com.sencha.gxt.widget.core.client.form.TextField;
+
+import java.util.Collections;
+import java.util.List;
 
 /**
  * Presenter class for the Belphegor <code>AppsView</code>.

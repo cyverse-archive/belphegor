@@ -1,16 +1,12 @@
 package org.iplantc.admin.belphegor.client.systemMessage.view;
 
-import java.util.Comparator;
-import java.util.Date;
-import java.util.List;
-
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
 import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.view.cells.SystemMessageNameCell;
-import org.iplantc.de.resources.client.IplantResources;
-import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 import org.iplantc.de.commons.client.models.sysmsgs.MessageProperties;
 import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
+import org.iplantc.de.resources.client.IplantResources;
+import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 
 import com.google.common.collect.Lists;
 import com.google.gwt.core.client.GWT;
@@ -21,6 +17,7 @@ import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.ui.HasHorizontalAlignment;
 import com.google.gwt.user.client.ui.Widget;
 import com.google.inject.Inject;
+
 import com.sencha.gxt.core.client.IdentityValueProvider;
 import com.sencha.gxt.core.client.Style.SelectionMode;
 import com.sencha.gxt.data.shared.ListStore;
@@ -33,6 +30,10 @@ import com.sencha.gxt.widget.core.client.grid.ColumnModel;
 import com.sencha.gxt.widget.core.client.grid.Grid;
 import com.sencha.gxt.widget.core.client.selection.SelectionChangedEvent;
 import com.sencha.gxt.widget.core.client.selection.SelectionChangedEvent.SelectionChangedHandler;
+
+import java.util.Comparator;
+import java.util.Date;
+import java.util.List;
 
 public class SystemMessageViewImpl extends Composite implements SystemMessageView, SelectionChangedHandler<SystemMessage> {
 

@@ -1,10 +1,10 @@
 package org.iplantc.admin.belphegor.client.services.model;
 
-import java.util.List;
-
-import org.iplantc.de.commons.client.models.HasId;
+import org.iplantc.de.client.models.HasId;
 
 import com.google.web.bindery.autobean.shared.AutoBean.PropertyName;
+
+import java.util.List;
 
 public interface AppCategorizeRequest {
 

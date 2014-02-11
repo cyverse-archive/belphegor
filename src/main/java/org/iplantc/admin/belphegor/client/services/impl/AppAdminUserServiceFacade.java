@@ -1,13 +1,14 @@
 package org.iplantc.admin.belphegor.client.services.impl;
 
-import java.util.List;
-
 import org.iplantc.de.apps.client.models.autobeans.AppGroup;
 import org.iplantc.de.apps.client.services.AppUserServiceFacade;
 
 import com.google.gwt.json.client.JSONObject;
 import com.google.gwt.user.client.rpc.AsyncCallback;
+
 import com.sencha.gxt.data.shared.SortDir;
+
+import java.util.List;
 
 /**
  * This class is a dummy class to satisfy GWT deferred-binding. By design, the Belphegor admin module
