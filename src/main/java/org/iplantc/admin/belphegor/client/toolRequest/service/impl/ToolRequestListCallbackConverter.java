@@ -3,7 +3,7 @@ package org.iplantc.admin.belphegor.client.toolRequest.service.impl;
 import org.iplantc.admin.belphegor.client.toolRequest.model.ToolRequestAdminAutoBeanFactory;
 import org.iplantc.admin.belphegor.client.toolRequest.model.ToolRequestList;
 import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
-import org.iplantc.de.commons.client.services.AsyncCallbackConverter;
+import org.iplantc.de.client.services.AsyncCallbackConverter;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.web.bindery.autobean.shared.AutoBean;

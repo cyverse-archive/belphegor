@@ -7,7 +7,7 @@ import org.iplantc.de.apps.client.models.autobeans.App;
 import org.iplantc.de.apps.client.models.autobeans.AppFeedback;
 import org.iplantc.de.apps.client.models.autobeans.AppProperties;
 import org.iplantc.de.apps.client.views.AppsView;
-import org.iplantc.de.commons.client.events.EventBus;
+import org.iplantc.de.client.events.EventBus;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.user.client.ui.HasHorizontalAlignment;
