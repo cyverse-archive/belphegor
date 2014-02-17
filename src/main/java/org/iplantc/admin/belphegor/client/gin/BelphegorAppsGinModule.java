@@ -24,8 +24,8 @@ import org.iplantc.admin.belphegor.client.views.BelphegorView;
 import org.iplantc.admin.belphegor.client.views.BelphegorViewImpl;
 import org.iplantc.de.apps.client.gin.AppGroupTreeProvider;
 import org.iplantc.de.apps.client.gin.AppGroupTreeStoreProvider;
-import org.iplantc.de.apps.client.models.autobeans.AppGroup;
 import org.iplantc.de.apps.client.views.AppsView;
+import org.iplantc.de.client.models.apps.AppGroup;
 
 import com.google.gwt.inject.client.AbstractGinModule;
 import com.google.inject.Singleton;

@@ -3,7 +3,7 @@ package org.iplantc.admin.belphegor.client.apps.views.editors;
 import org.iplantc.admin.belphegor.client.Constants;
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.models.AppValidators;
-import org.iplantc.de.apps.client.models.autobeans.App;
+import org.iplantc.de.client.models.apps.App;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.editor.client.Editor;

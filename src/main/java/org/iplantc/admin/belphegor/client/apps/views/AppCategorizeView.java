@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.apps.views;
 
-import org.iplantc.de.apps.client.models.autobeans.AppGroup;
+import org.iplantc.de.client.models.apps.AppGroup;
 
 import com.google.gwt.user.client.ui.IsWidget;
 

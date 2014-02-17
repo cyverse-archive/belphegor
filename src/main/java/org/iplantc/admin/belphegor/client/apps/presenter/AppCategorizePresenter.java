@@ -2,8 +2,8 @@ package org.iplantc.admin.belphegor.client.apps.presenter;
 
 import org.iplantc.admin.belphegor.client.apps.views.AppCategorizeView;
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
-import org.iplantc.de.apps.client.models.autobeans.App;
-import org.iplantc.de.apps.client.models.autobeans.AppGroup;
+import org.iplantc.de.client.models.apps.App;
+import org.iplantc.de.client.models.apps.AppGroup;
 
 import com.google.gwt.user.client.ui.HasOneWidget;
 

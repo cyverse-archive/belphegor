@@ -1,9 +1,9 @@
 package org.iplantc.admin.belphegor.client.apps.views;
 
 import org.iplantc.admin.belphegor.client.apps.presenter.AdminAppsViewPresenter;
-import org.iplantc.de.apps.client.models.autobeans.App;
-import org.iplantc.de.apps.client.models.autobeans.AppGroup;
 import org.iplantc.de.apps.client.views.AppsViewImpl;
+import org.iplantc.de.client.models.apps.App;
+import org.iplantc.de.client.models.apps.AppGroup;
 
 import com.google.gwt.uibinder.client.UiFactory;
 import com.google.inject.Inject;
