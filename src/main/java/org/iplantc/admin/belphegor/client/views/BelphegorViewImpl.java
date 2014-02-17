@@ -10,9 +10,9 @@ import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
 import org.iplantc.admin.belphegor.client.toolRequest.ToolRequestView;
-import org.iplantc.de.client.models.CommonModelUtils;
 import org.iplantc.de.client.models.HasId;
 import org.iplantc.de.client.models.UserInfo;
+import org.iplantc.de.client.util.CommonModelUtils;
 import org.iplantc.de.commons.client.widgets.IPlantAnchor;
 import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
 
