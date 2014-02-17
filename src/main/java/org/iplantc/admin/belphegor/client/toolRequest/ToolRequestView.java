@@ -1,9 +1,9 @@
 package org.iplantc.admin.belphegor.client.toolRequest;
 
 import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestServiceFacade;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
+import org.iplantc.de.client.models.toolRequest.ToolRequest;
+import org.iplantc.de.client.models.toolRequest.ToolRequestDetails;
+import org.iplantc.de.client.models.toolRequest.ToolRequestUpdate;
 import org.iplantc.de.commons.client.views.IsMaskable;
 
 import com.google.gwt.user.client.ui.HasOneWidget;

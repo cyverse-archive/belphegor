@@ -4,11 +4,11 @@ import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.toolRequest.model.ToolRequestAdminAutoBeanFactory;
 import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestServiceFacade;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
 import org.iplantc.de.client.models.HasId;
 import org.iplantc.de.client.models.UserInfo;
+import org.iplantc.de.client.models.toolRequest.ToolRequest;
+import org.iplantc.de.client.models.toolRequest.ToolRequestDetails;
+import org.iplantc.de.client.models.toolRequest.ToolRequestUpdate;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;

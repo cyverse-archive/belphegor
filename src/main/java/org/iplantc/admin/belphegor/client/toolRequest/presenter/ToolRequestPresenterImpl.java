@@ -2,10 +2,10 @@ package org.iplantc.admin.belphegor.client.toolRequest.presenter;
 
 import org.iplantc.admin.belphegor.client.toolRequest.ToolRequestView;
 import org.iplantc.admin.belphegor.client.toolRequest.service.ToolRequestServiceFacade;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequest;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestUpdate;
 import org.iplantc.de.client.models.UserInfo;
+import org.iplantc.de.client.models.toolRequest.ToolRequest;
+import org.iplantc.de.client.models.toolRequest.ToolRequestDetails;
+import org.iplantc.de.client.models.toolRequest.ToolRequestUpdate;
 import org.iplantc.de.commons.client.ErrorHandler;
 import org.iplantc.de.commons.client.info.IplantAnnouncer;
 import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;

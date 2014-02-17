@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.toolRequest.view;
 
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestDetails;
+import org.iplantc.de.client.models.toolRequest.ToolRequestDetails;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.editor.client.Editor;
