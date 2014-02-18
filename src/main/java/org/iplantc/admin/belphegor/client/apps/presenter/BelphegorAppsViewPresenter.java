@@ -16,7 +16,6 @@ import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest.Ca
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest.CategoryRequest;
 import org.iplantc.de.apps.client.presenter.AppsViewPresenter;
 import org.iplantc.de.apps.client.presenter.proxy.AppGroupProxy;
-import org.iplantc.de.apps.client.services.AppServiceFacade;
 import org.iplantc.de.apps.client.views.AppsView;
 import org.iplantc.de.apps.client.views.widgets.proxy.AppSearchRpcProxy;
 import org.iplantc.de.client.events.EventBus;
@@ -24,6 +23,7 @@ import org.iplantc.de.client.models.HasId;
 import org.iplantc.de.client.models.apps.App;
 import org.iplantc.de.client.models.apps.AppAutoBeanFactory;
 import org.iplantc.de.client.models.apps.AppGroup;
+import org.iplantc.de.client.services.AppServiceFacade;
 import org.iplantc.de.client.util.CommonModelUtils;
 import org.iplantc.de.client.util.JsonUtil;
 import org.iplantc.de.commons.client.ErrorHandler;

@@ -1,7 +1,7 @@
 package org.iplantc.admin.belphegor.client.services.impl;
 
-import org.iplantc.de.apps.client.services.AppUserServiceFacade;
 import org.iplantc.de.client.models.apps.AppGroup;
+import org.iplantc.de.client.services.AppUserServiceFacade;
 
 import com.google.gwt.json.client.JSONObject;
 import com.google.gwt.user.client.rpc.AsyncCallback;
