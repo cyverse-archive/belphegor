@@ -1,7 +1,6 @@
 package org.iplantc.admin.belphegor.client.toolRequest.view;
 
 import org.iplantc.admin.belphegor.client.toolRequest.ToolRequestView;
-import org.iplantc.de.apps.client.models.toolrequest.ToolRequestProperties;
 import org.iplantc.de.client.models.toolRequest.ToolRequest;
 import org.iplantc.de.client.models.toolRequest.ToolRequestAutoBeanFactory;
 import org.iplantc.de.client.models.toolRequest.ToolRequestDetails;
