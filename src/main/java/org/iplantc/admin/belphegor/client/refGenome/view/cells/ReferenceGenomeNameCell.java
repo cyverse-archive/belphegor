@@ -1,7 +1,7 @@
 package org.iplantc.admin.belphegor.client.refGenome.view.cells;
 
 import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
 import org.iplantc.de.resources.client.AppFavoriteCellStyle;
 import org.iplantc.de.resources.client.DiskResourceNameCellStyle;
 import org.iplantc.de.resources.client.IplantResources;

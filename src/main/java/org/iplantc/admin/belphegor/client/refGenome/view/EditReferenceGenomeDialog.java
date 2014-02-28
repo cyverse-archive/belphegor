@@ -1,9 +1,9 @@
 package org.iplantc.admin.belphegor.client.refGenome.view;
 
 import org.iplantc.admin.belphegor.client.I18N;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeAutoBeanFactory;
 import org.iplantc.de.client.models.UserInfo;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenomeAutoBeanFactory;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.editor.client.Editor;

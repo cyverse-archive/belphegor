@@ -1,8 +1,8 @@
 package org.iplantc.admin.belphegor.client.refGenome.presenter;
 
 import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.admin.belphegor.client.refGenome.service.ReferenceGenomeServiceFacade;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
 import org.iplantc.de.commons.client.ErrorHandler;
 import org.iplantc.de.commons.client.info.IplantAnnouncer;
 import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;

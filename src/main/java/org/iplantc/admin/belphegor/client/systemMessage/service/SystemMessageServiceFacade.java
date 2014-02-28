@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.systemMessage.service;
 
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
+import org.iplantc.de.client.models.systemMessages.SystemMessage;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 

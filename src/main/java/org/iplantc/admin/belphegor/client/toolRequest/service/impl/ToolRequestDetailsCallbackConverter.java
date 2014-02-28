@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.toolRequest.service.impl;
 
-import org.iplantc.admin.belphegor.client.toolRequest.model.ToolRequestAdminAutoBeanFactory;
+import org.iplantc.de.client.models.toolRequest.ToolRequestAdminAutoBeanFactory;
 import org.iplantc.de.client.models.toolRequest.ToolRequestDetails;
 import org.iplantc.de.client.services.AsyncCallbackConverter;
 
