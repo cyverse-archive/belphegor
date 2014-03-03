@@ -69,7 +69,7 @@
             </form:FieldLabel>
         </container:child>
         <container:child layoutData="{layoutData}">
-            <form:FieldLabel text="Dismissible">
+            <form:FieldLabel text="Allow user to delete">
                 <form:widget>
                     <form:CheckBox ui:field="dismissibleField"/>
                 </form:widget>
