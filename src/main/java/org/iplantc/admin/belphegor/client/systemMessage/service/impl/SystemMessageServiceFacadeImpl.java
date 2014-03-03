@@ -2,9 +2,9 @@ package org.iplantc.admin.belphegor.client.systemMessage.service.impl;
 
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessageFactory;
 import org.iplantc.admin.belphegor.client.systemMessage.service.SystemMessageServiceFacade;
+import org.iplantc.de.client.models.systemMessages.SystemMessage;
+import org.iplantc.de.client.models.systemMessages.SystemMessageFactory;
 import org.iplantc.de.client.services.StringToVoidCallbackConverter;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 

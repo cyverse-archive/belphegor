@@ -1,4 +1,6 @@
-package org.iplantc.admin.belphegor.client.refGenome.model;
+package org.iplantc.admin.belphegor.client.refGenome.view;
+
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
 
 import com.sencha.gxt.core.client.ValueProvider;
 import com.sencha.gxt.data.shared.ModelKeyProvider;

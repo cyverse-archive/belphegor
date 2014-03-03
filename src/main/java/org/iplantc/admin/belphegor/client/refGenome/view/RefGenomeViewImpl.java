@@ -2,9 +2,8 @@ package org.iplantc.admin.belphegor.client.refGenome.view;
 
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.refGenome.RefGenomeView;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeProperties;
 import org.iplantc.admin.belphegor.client.refGenome.view.cells.ReferenceGenomeNameCell;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
 import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
 import org.iplantc.de.resources.client.IplantResources;
 import org.iplantc.de.resources.client.messages.IplantDisplayStrings;

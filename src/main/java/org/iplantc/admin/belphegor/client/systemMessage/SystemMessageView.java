@@ -1,8 +1,8 @@
 package org.iplantc.admin.belphegor.client.systemMessage;
 
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.service.SystemMessageServiceFacade;
 import org.iplantc.de.client.models.IsMaskable;
+import org.iplantc.de.client.models.systemMessages.SystemMessage;
 
 import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.gwt.user.client.ui.IsWidget;

@@ -1,7 +1,7 @@
 package org.iplantc.admin.belphegor.client.systemMessage.service.impl;
 
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessageFactory;
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessageTypesList;
+import org.iplantc.de.client.models.systemMessages.SystemMessageFactory;
+import org.iplantc.de.client.models.systemMessages.SystemMessageTypesList;
 import org.iplantc.de.client.services.AsyncCallbackConverter;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
