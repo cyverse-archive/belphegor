@@ -1,10 +1,10 @@
 package org.iplantc.admin.belphegor.client.refGenome.service.impl;
 
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenomeAutoBeanFactory;
 import org.iplantc.admin.belphegor.client.refGenome.service.ReferenceGenomeServiceFacade;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenomeAutoBeanFactory;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;

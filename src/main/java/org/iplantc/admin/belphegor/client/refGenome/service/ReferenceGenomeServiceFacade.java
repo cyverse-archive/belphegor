@@ -1,6 +1,6 @@
 package org.iplantc.admin.belphegor.client.refGenome.service;
 
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 

@@ -1,10 +1,10 @@
 package org.iplantc.admin.belphegor.client.apps.views.widgets;
 
 import org.iplantc.de.apps.client.views.widgets.AppSearchField;
-import org.iplantc.de.apps.client.views.widgets.proxy.AppLoadConfig;
-import org.iplantc.de.apps.client.views.widgets.proxy.AppSearchAutoBeanFactory;
 import org.iplantc.de.apps.client.views.widgets.proxy.AppSearchRpcProxy;
 import org.iplantc.de.client.models.apps.App;
+import org.iplantc.de.client.models.apps.proxy.AppLoadConfig;
+import org.iplantc.de.client.models.apps.proxy.AppSearchAutoBeanFactory;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.uibinder.client.UiBinder;

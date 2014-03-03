@@ -1,7 +1,7 @@
 package org.iplantc.admin.belphegor.client.systemMessage.view;
 
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessageFactory;
+import org.iplantc.de.client.models.systemMessages.SystemMessage;
+import org.iplantc.de.client.models.systemMessages.SystemMessageFactory;
 
 import com.google.common.collect.Lists;
 import com.google.gwt.core.client.GWT;

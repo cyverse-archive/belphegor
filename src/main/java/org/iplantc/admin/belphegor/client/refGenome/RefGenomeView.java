@@ -1,7 +1,7 @@
 package org.iplantc.admin.belphegor.client.refGenome;
 
-import org.iplantc.admin.belphegor.client.refGenome.model.ReferenceGenome;
 import org.iplantc.de.client.models.IsMaskable;
+import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
 
 import com.google.gwt.user.client.ui.HasOneWidget;
 import com.google.gwt.user.client.ui.IsWidget;

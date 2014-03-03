@@ -1,8 +1,8 @@
 package org.iplantc.admin.belphegor.client.systemMessage.presenter;
 
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.service.SystemMessageServiceFacade;
+import org.iplantc.de.client.models.systemMessages.SystemMessage;
 import org.iplantc.de.commons.client.ErrorHandler;
 import org.iplantc.de.commons.client.info.IplantAnnouncer;
 import org.iplantc.de.commons.client.info.SuccessAnnouncementConfig;

@@ -1,8 +1,8 @@
 package org.iplantc.admin.belphegor.client.systemMessage.view;
 
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
-import org.iplantc.admin.belphegor.client.systemMessage.model.SystemMessage;
 import org.iplantc.admin.belphegor.client.systemMessage.view.cells.SystemMessageNameCell;
+import org.iplantc.de.client.models.systemMessages.SystemMessage;
 import org.iplantc.de.commons.client.views.gxt3.dialogs.IPlantDialog;
 import org.iplantc.de.resources.client.IplantResources;
 import org.iplantc.de.resources.client.messages.IplantDisplayStrings;
