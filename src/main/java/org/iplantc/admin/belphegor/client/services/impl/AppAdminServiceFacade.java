@@ -39,7 +39,7 @@ public class AppAdminServiceFacade implements AppServiceFacade {
     public void getAppGroups(AsyncCallback<List<AppGroup>> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getCategoryListServiceUrl();
         ServiceCallWrapper wrapper = new ServiceCallWrapper(address);
-        callService(wrapper, new AppGroupListCallbackConverter(callback));
+        callService(wrapper, new AppGroupListCallbackConverter(callback, I18N.ERROR));
     }
 
     @Override
