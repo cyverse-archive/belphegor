@@ -7,9 +7,8 @@ import org.iplantc.admin.belphegor.client.apps.views.widgets.BelphegorAppsToolba
 import org.iplantc.admin.belphegor.client.events.CatalogCategoryRefreshEvent;
 import org.iplantc.admin.belphegor.client.events.CatalogCategoryRefreshEventHandler;
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
+import org.iplantc.admin.belphegor.client.services.AppAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.services.callbacks.AdminServiceCallback;
-import org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade;
-import org.iplantc.admin.belphegor.client.services.impl.AppAdminUserServiceFacade;
 import org.iplantc.admin.belphegor.client.services.model.AppAdminServiceRequestAutoBeanFactory;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest.CategoryPath;
@@ -24,6 +23,7 @@ import org.iplantc.de.client.models.apps.App;
 import org.iplantc.de.client.models.apps.AppAutoBeanFactory;
 import org.iplantc.de.client.models.apps.AppGroup;
 import org.iplantc.de.client.services.AppServiceFacade;
+import org.iplantc.de.client.services.AppUserServiceFacade;
 import org.iplantc.de.client.util.CommonModelUtils;
 import org.iplantc.de.client.util.JsonUtil;
 import org.iplantc.de.commons.client.ErrorHandler;
@@ -84,9 +84,7 @@ public class BelphegorAppsViewPresenter extends AppsViewPresenter implements Adm
     private final AppAdminServiceFacade adminAppService;
 
     @Inject
-    public BelphegorAppsViewPresenter(final AppsView view, final AppGroupProxy proxy,
-            final BelphegorAppsToolbar toolbar, AppAdminServiceFacade appService,
-            AppAdminUserServiceFacade appUserService) {
+    public BelphegorAppsViewPresenter(final AppsView view, final AppGroupProxy proxy, final BelphegorAppsToolbar toolbar, AppAdminServiceFacade appService, AppUserServiceFacade appUserService) {
         super(view, proxy, null, appService, appUserService);
         this.adminAppService = appService;
 
@@ -162,7 +160,7 @@ public class BelphegorAppsViewPresenter extends AppsViewPresenter implements Adm
         if ((!selectedAppGroup.getName().contains("Public Apps"))
                 && selectedAppGroup.getAppCount() > 0
                 && selectedAppGroup.getGroups().size() == 0
-                || ((props.getDefaultTrashAnalysisGroupId().equalsIgnoreCase(selectedAppGroup.getId())) 
+                || ((props.getDefaultTrashAnalysisGroupId().equalsIgnoreCase(selectedAppGroup.getId()))
                         || props.getDefaultBetaAnalysisGroupId().equalsIgnoreCase(selectedAppGroup.getId()))) {
             ErrorHandler.post(I18N.ERROR.addCategoryPermissionError());
             return;

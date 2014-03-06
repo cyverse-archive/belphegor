@@ -10,6 +10,9 @@ import org.iplantc.admin.belphegor.client.refGenome.presenter.RefGenomePresenter
 import org.iplantc.admin.belphegor.client.refGenome.service.ReferenceGenomeServiceFacade;
 import org.iplantc.admin.belphegor.client.refGenome.service.impl.ReferenceGenomeServiceFacadeImpl;
 import org.iplantc.admin.belphegor.client.refGenome.view.RefGenomeViewImpl;
+import org.iplantc.admin.belphegor.client.services.AppAdminServiceFacade;
+import org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacadeImpl;
+import org.iplantc.admin.belphegor.client.services.impl.AppAdminUserServiceFacade;
 import org.iplantc.admin.belphegor.client.systemMessage.SystemMessageView;
 import org.iplantc.admin.belphegor.client.systemMessage.presenter.SystemMessagePresenterImpl;
 import org.iplantc.admin.belphegor.client.systemMessage.service.SystemMessageServiceFacade;
@@ -26,6 +29,8 @@ import org.iplantc.de.apps.client.gin.AppGroupTreeProvider;
 import org.iplantc.de.apps.client.gin.AppGroupTreeStoreProvider;
 import org.iplantc.de.apps.client.views.AppsView;
 import org.iplantc.de.client.models.apps.AppGroup;
+import org.iplantc.de.client.services.AppServiceFacade;
+import org.iplantc.de.client.services.AppUserServiceFacade;
 
 import com.google.gwt.inject.client.AbstractGinModule;
 import com.google.inject.Singleton;
@@ -62,5 +67,10 @@ public class BelphegorAppsGinModule extends AbstractGinModule {
         bind(SystemMessageServiceFacade.class).to(SystemMessageServiceFacadeImpl.class);
 
         bind(BelphegorResources.class).in(Singleton.class);
+
+        bind(AppUserServiceFacade.class).to(AppAdminUserServiceFacade.class);
+        bind(AppAdminServiceFacade.class).to(AppAdminServiceFacadeImpl.class);
+        bind(AppServiceFacade.class).to(AppAdminServiceFacadeImpl.class);
     }
+
 }

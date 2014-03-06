@@ -2,11 +2,11 @@ package org.iplantc.admin.belphegor.client.services.impl;
 
 import org.iplantc.admin.belphegor.client.I18N;
 import org.iplantc.admin.belphegor.client.models.ToolIntegrationAdminProperties;
+import org.iplantc.admin.belphegor.client.services.AppAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFacade;
 import org.iplantc.admin.belphegor.client.services.callbacks.AdminServiceCallback;
 import org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest;
 import org.iplantc.de.client.models.apps.AppGroup;
-import org.iplantc.de.client.services.AppServiceFacade;
 import org.iplantc.de.client.services.converters.AppGroupListCallbackConverter;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
@@ -21,14 +21,14 @@ import com.sencha.gxt.widget.core.client.Component;
 
 import java.util.List;
 
-public class AppAdminServiceFacade implements AppServiceFacade {
+public class AppAdminServiceFacadeImpl implements AppAdminServiceFacade {
     private final Component maskingCaller;
 
-    public AppAdminServiceFacade() {
+    public AppAdminServiceFacadeImpl() {
         this(null);
     }
 
-    public AppAdminServiceFacade(Component maskingCaller) {
+    public AppAdminServiceFacadeImpl(Component maskingCaller) {
         this.maskingCaller = maskingCaller;
     }
 
@@ -70,13 +70,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Adds a new Category with the given category name.
-     *
-     * @param name
-     * @param destCategoryId
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#addCategory(java.lang.String, java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void addCategory(String name, String destCategoryId, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getAddCategoryServiceUrl();
 
@@ -89,13 +86,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Renames a Category with the given category ID to the given name.
-     *
-     * @param categoryId
-     * @param name
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#renameAppGroup(java.lang.String, java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void renameAppGroup(String categoryId, String name, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getRenameCategoryServiceUrl();
 
@@ -108,13 +102,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Moves a Category with the given category ID to a parent Category with the given parentCategoryId.
-     *
-     * @param categoryId
-     * @param parentCategoryId
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#moveCategory(java.lang.String, java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void moveCategory(String categoryId, String parentCategoryId, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getMoveCategoryServiceUrl();
 
@@ -127,12 +118,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Deletes the Category with the given category ID.
-     *
-     * @param categoryId
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#deleteAppGroup(java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void deleteAppGroup(String categoryId, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getDeleteCategoryServiceUrl()
                 + "/" + categoryId; //$NON-NLS-1$
@@ -141,12 +130,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Updates an app with the given values in application.
-     *
-     * @param application
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#updateApplication(com.google.gwt.json.client.JSONObject, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void updateApplication(JSONObject application, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getUpdateAppServiceUrl();
 
@@ -155,13 +142,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Moves an App with the given applicationId to the category with the given groupId.
-     *
-     * @param applicationId
-     * @param groupId
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#moveApplication(java.lang.String, java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void moveApplication(String applicationId, String groupId, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getMoveAppServiceUrl();
 
@@ -174,12 +158,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Deletes an App with the given applicationId.
-     *
-     * @param applicationId
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#deleteApplication(java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void deleteApplication(String applicationId, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getDeleteAppServiceUrl() + "/" //$NON-NLS-1$
                 + applicationId;
@@ -188,12 +170,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
-    /**
-     * Deletes an App with the given applicationId.
-     *
-     * @param applicationId
-     * @param callback
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#restoreApplication(java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
      */
+    @Override
     public void restoreApplication(String applicationId, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getRestoreAppServiceUrl() + "/" //$NON-NLS-1$
                 + applicationId;
@@ -202,6 +182,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#categorizeApp(org.iplantc.admin.belphegor.client.services.model.AppCategorizeRequest, com.google.gwt.user.client.rpc.AsyncCallback)
+     */
+    @Override
     public void categorizeApp(AppCategorizeRequest request, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getCategorizeAppServiceUrl();
         String body = AutoBeanCodex.encode(AutoBeanUtils.getAutoBean(request)).getPayload();
@@ -210,6 +194,10 @@ public class AppAdminServiceFacade implements AppServiceFacade {
         callService(wrapper, callback);
     }
 
+    /* (non-Javadoc)
+     * @see org.iplantc.admin.belphegor.client.services.impl.AppAdminServiceFacade#getAppDetails(java.lang.String, com.google.gwt.user.client.rpc.AsyncCallback)
+     */
+    @Override
     public void getAppDetails(String appId, AsyncCallback<String> callback) {
         String address = ToolIntegrationAdminProperties.getInstance().getAppDetailsServiceUrl() + "/" //$NON-NLS-1$
                 + appId;
