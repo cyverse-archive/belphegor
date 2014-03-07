@@ -5,7 +5,7 @@ import org.iplantc.admin.belphegor.client.services.ToolIntegrationAdminServiceFa
 import org.iplantc.admin.belphegor.client.systemMessage.service.SystemMessageServiceFacade;
 import org.iplantc.de.client.models.systemMessages.SystemMessage;
 import org.iplantc.de.client.models.systemMessages.SystemMessageFactory;
-import org.iplantc.de.client.services.StringToVoidCallbackConverter;
+import org.iplantc.de.client.services.converters.StringToVoidCallbackConverter;
 import org.iplantc.de.shared.services.ServiceCallWrapper;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;

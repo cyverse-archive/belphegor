@@ -3,7 +3,7 @@ package org.iplantc.admin.belphegor.client.refGenome.service.impl;
 import org.iplantc.de.client.models.apps.refGenome.ReferenceGenome;
 import org.iplantc.de.client.models.apps.refGenome.ReferenceGenomeAutoBeanFactory;
 import org.iplantc.de.client.models.apps.refGenome.ReferenceGenomeList;
-import org.iplantc.de.client.services.AsyncCallbackConverter;
+import org.iplantc.de.client.services.converters.AsyncCallbackConverter;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.web.bindery.autobean.shared.AutoBean;

@@ -2,7 +2,7 @@ package org.iplantc.admin.belphegor.client.systemMessage.service.impl;
 
 import org.iplantc.de.client.models.systemMessages.SystemMessage;
 import org.iplantc.de.client.models.systemMessages.SystemMessageFactory;
-import org.iplantc.de.client.services.AsyncCallbackConverter;
+import org.iplantc.de.client.services.converters.AsyncCallbackConverter;
 
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.web.bindery.autobean.shared.AutoBean;
